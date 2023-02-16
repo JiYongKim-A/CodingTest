@@ -1,5 +1,6 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/219280015-242a0410-69a0-48c2-b7f9-2e46e8fce736.jpg" width = "30%" height="30%">
+
 
 # 프로그래머스 전화번호 목록 문제
 [프로그래머스 전화번호 목록 문제 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
