@@ -1,5 +1,6 @@
 import java.util.HashSet;
 class Solution {
+    // 시간 복잡도 O(n)... n = nums.length
     public int solution(int[] nums) {
         //가질 수 있는 포켓몬 수
         int max= nums.length/2;
