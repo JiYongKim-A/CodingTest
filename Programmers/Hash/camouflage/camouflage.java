@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 시간 복잡도 O(n)... n = clothes.length
     public int solution(String[][] clothes) {
        HashMap<String, Integer> closet = new HashMap<>();
         int result = 1;
