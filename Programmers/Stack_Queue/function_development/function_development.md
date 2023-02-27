@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/221542949-676fce92-9e53-47ce-bd5e-9caf2363a475.jpg" width = "30%" height="30%">
 
 # 프로그래머스 기능 개발 문제
 [프로그래머스 기능 개발 문제 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
