@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/221532770-6314d398-c52c-4a1d-be05-70d0682adcda.png" width = "30%" height="30%">
 
 # 프로그래머스 같은 숫자는 싫어 문제
 [프로그래머스 같은 숫자는 싫어 문제 URL](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
