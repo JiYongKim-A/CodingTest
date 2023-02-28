@@ -1,17 +1,23 @@
 import java.util.*;
 class Solution {
-    // 시간 복잡도 O(n).... n = arr.length
-    public int[] solution(int[] arr) {
-        ArrayList<Integer> list = new ArrayList<>();
-        int past = -1;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == past) {
-                continue;
+    // 시간복잡도 O(n)... n = s.length()
+    boolean solution(String s) {
+        Stack<Character> stack = new Stack<>();
+        if(s.charAt(0) == s.charAt(s.length()-1) || s.length()%2==1){
+            return false;
+        }
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (stack.isEmpty() && c ==')') {
+                return false;
+            }
+
+            if (c=='(') {
+                stack.add(c);
             } else {
-                list.add(arr[i]);
-                past = arr[i];
+                stack.pop();
             }
         }
-        return list.stream().mapToInt(Integer::intValue).toArray();
+        return stack.isEmpty();
     }
 }
