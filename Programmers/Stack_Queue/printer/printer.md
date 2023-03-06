@@ -1,8 +1,9 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/223003940-988d4854-6c2c-456e-8c76-15b98545d8f5.png" width = "30%" height="30%">
 
 # 프로그래머스 프린터 문제
 [프로그래머스 프린터 문제 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
+
 
 
 </div>
