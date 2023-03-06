@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/223007046-76b81071-e47a-433a-930d-c8cb8ee2c672.png" width = "30%" height="30%">
 
 # 프로그래머스 주식 가격 문제
 [프로그래머스 주식 가격 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42584)
@@ -37,5 +37,6 @@
     
 * 풀이 방법
     1. 투 포인터 방식을 사용하여 p1과 p2가 배열을 순환하며 
-        * p1요소가 p2 보다 작을 경우 p1과 p2사이 거리를 반환한다. 
+         
+         => p1요소가 p2 보다 작을 경우 p1과 p2사이 거리를 반환한다. 
 
