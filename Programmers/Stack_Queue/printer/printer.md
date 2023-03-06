@@ -55,8 +55,11 @@
     3. Deque를 선언하여 priorities 요소와 인덱스 번호를 docs 객체로 생성하여 삽입
     4. 반복문을 통해
         * Deque의 peek() 요소의 우선순위와 Queue의 peek()요소와 동일하지 않으면
+            
             => Deque와 Queue의 첫번째 요소 빼서 맨뒤로 삽입
         * Deque의 peek() 요소의 우선순위와 Queue의 peek()요소와 동일하면
+            
             => Deque와 Queue의 첫번째 요소 poll()하고 프린팅 카운트+=1
+            
             => Deque의 docs객체의 index변수와 location이 동일할 경우 return 프린팅 카운트
 
