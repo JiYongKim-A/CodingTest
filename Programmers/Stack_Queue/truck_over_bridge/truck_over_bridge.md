@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/223024070-f82011a1-a7f0-499e-ba76-bf36f926d63d.png" width = "30%" height="30%">
 
 # 프로그래머스 다리를 지나는 트럭 문제
 [프로그래머스 다리를 지나는 트럭 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
