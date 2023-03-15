@@ -21,11 +21,11 @@
 
 와 같은 요청이 들어왔습니다. 이를 그림으로 표현하면 아래와 같습니다.
 
-Screen Shot 2018-09-13 at 6.34.58 PM.png
+<img width="927" alt="스크린샷 2023-03-15 오후 8 34 53" src="https://user-images.githubusercontent.com/81874493/225297579-4174762d-4c3d-4ddc-9e29-dbc2b412e2ac.png">
 
 한 번에 하나의 요청만을 수행할 수 있기 때문에 각각의 작업을 요청받은 순서대로 처리하면 다음과 같이 처리 됩니다.
 
-Screen Shot 2018-09-13 at 6.38.52 PM.png
+<img width="930" alt="스크린샷 2023-03-15 오후 8 35 04" src="https://user-images.githubusercontent.com/81874493/225297625-b8ae1b4f-a5fd-47b9-9696-31ddc74ad1fe.png">
 
 - A: 3ms 시점에 작업 완료 (요청에서 종료까지 : 3ms)
 - B: 1ms부터 대기하다가, 3ms 시점에 작업을 시작해서 12ms 시점에 작업 완료(요청에서 종료까지 : 11ms)
@@ -34,7 +34,7 @@ Screen Shot 2018-09-13 at 6.38.52 PM.png
 
 하지만 A → C → B 순서대로 처리하면
 
-Screen Shot 2018-09-13 at 6.41.42 PM.png
+<img width="923" alt="스크린샷 2023-03-15 오후 8 35 14" src="https://user-images.githubusercontent.com/81874493/225297643-ee65e253-70c0-41c3-bb2b-7307bcaf2bb7.png">
 
 - A: 3ms 시점에 작업 완료(요청에서 종료까지 : 3ms)
 - C: 2ms부터 대기하다가, 3ms 시점에 작업을 시작해서 9ms 시점에 작업 완료(요청에서 종료까지 : 7ms)
