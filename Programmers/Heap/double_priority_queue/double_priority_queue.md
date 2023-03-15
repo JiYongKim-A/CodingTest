@@ -45,26 +45,30 @@
 
 * 문제 해석
     
-    주어진 scoville 배열 요소를 정렬하여 가장 적은 요소 부터 꺼내어 
-  
-            [혼합 공식 : 섞은 음식의 스코빌 지수 = 가장 맵지 않은 음식의 스코빌 지수 + (두 번째로 맵지 않은 음식의 스코빌 지수 * 2]
+    주어진 operations 배열의 명령어를 하나씩 처리하여 
     
-    위의 혼합 공식을 반복 이행 했을 때 주어진 K 이상 숫자가 나올때까지의 혼합 공식 반복 횟수를 반환하라.
+    => 이중 우선순위 큐에 남아 있는 값이 없을 경우 `[0,0]` 반환
     
-    (만약 K 이상을 만들지 못했을 경우 -1 반환)
+    => 이중 우선순위 큐에 남아 있는 값이 존재할 경우 `[최댓값, 최솟값]` 반환
+
     
     <br>
             
     
 * 풀이 방법
-    1. scoville의 모든 요소를 Priority queue에 삽입
-    2. Priority queue의 첫번째 값이 K 이상이 아닐때 까지 Priority queue에서 값을 하나씩 꺼내어 혼합 공식 반복
-
-        => K 이상이 아닐 경우 다시 Priority queue에 삽입
-
-        => 혼합 공식 반복중 Priority queuer가 비였을 경우 -1 반환
-    
-        
+    1. 오름차순 우선순위큐(MinQueue)와 내림차순 우선순위큐(MaxQueue) 하나씩 선언
+    2. operation 배열 요소의 명령어 처리
+      * 명령어가 I 일 경우
+        * MaxQueue와 MinQueue에 동일값 삽입
+      * 명령어가 D 1 일 경우 (최댓값 삭제)
+        * `MinQueue.remove(MaxQueue.poll())`
+      * 명령어가 D -1 일 경우 (최솟값 삭제)
+        * `MaxQueue.remove(MinQueue.poll())`
+    3. 정답 배열 반환
+      * 만약 MaxQueue MinQueue 의 값이 존재하지 않을 경우
+        * `[0,0]`반환
+      * 만약 MaxQueue MinQueue 의 값이 존재할 경우
+        * `[MaxQueue.poll(),MinQueue.poll()]` 반환
         
     
 
