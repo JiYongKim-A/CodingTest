@@ -1,8 +1,9 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/225299656-c85c2b3d-fefb-4434-9549-d318bdde8a69.jpg" width = "30%" height="30%">
 
 # 프로그래머스 디스크 컨트롤러 문제
 [프로그래머스 디스크 컨트롤러 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42627)
+
 
 
 </div>
