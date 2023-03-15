@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution {
+    // 시간복잡도 O(nlogn)... n = scoville.length
     public int solution(int[] scoville, int K) {
         PriorityQueue<Integer> queue = new PriorityQueue<>();
         for (int i : scoville) {
