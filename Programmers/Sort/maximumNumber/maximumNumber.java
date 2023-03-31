@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 시간복잡도 [최악 : O(n^2)],[평균 : O(nlogn)]... n = numbers.length
     public String solution(int[] numbers) {
        String[] arr = Arrays.stream(numbers)
                 .mapToObj(String::valueOf)
