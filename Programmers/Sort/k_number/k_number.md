@@ -1,7 +1,8 @@
 
 <div align="center">
 
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/229053348-7016c700-b610-4a7f-af9a-780398e0332e.jpg" width = "30%" height="30%">
+
 
 # 프로그래머스 K번째 수 문제
 [프로그래머스 K번째 수 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
