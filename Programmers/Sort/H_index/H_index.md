@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/229053800-8d371365-37dc-4aa8-86f2-bfc9cff874d8.png" width = "30%" height="30%">
 
 # 프로그래머스  H-Index 문제
 [프로그래머스 H-Index URL](https://school.programmers.co.kr/learn/courses/30/lessons/42747)
