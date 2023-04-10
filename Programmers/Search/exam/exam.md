@@ -1,9 +1,8 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/230897659-0401f07b-71c6-4226-9ab1-89a513cdf8b9.png" width = "30%" height="30%">
 
 # 프로그래머스 모의고사 문제
 [프로그래머스 모의고사 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
-
 
 
 </div>
