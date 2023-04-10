@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/230897895-3def4193-5fad-4700-9757-ef8f3ae437f1.jpg" width = "30%" height="30%">
 
 # 프로그래머스 소수 찾기 문제
 [프로그래머스 소수 찾기 URL](https://school.programmers.co.kr/learn/courses/30/lessons/42839)
