@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/230897524-a61c2756-792a-4631-ba73-7c47f3be5bf5.png" width = "30%" height="30%">
 
 # 프로그래머스 모음사전 문제
 [프로그래머스 모음사전 URL](https://school.programmers.co.kr/learn/courses/30/lessons/84512)
