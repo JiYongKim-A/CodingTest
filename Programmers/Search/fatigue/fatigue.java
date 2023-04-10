@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 시간 복잡도 O(n!*n^2).... n = dungeons.length
     public int solution(int k, int[][] dungeons) {
         if(dungeons.length == 0){
             return 0;
