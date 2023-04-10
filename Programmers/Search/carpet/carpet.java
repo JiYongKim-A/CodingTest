@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 시간복잡도 O(n) ... n = yellow
     public int[] solution(int brown, int yellow) { List<Integer> list = new ArrayList<>();
         for (int i = 1; i <= yellow; i++) {
             if (yellow % i == 0) {
