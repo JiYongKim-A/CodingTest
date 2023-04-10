@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/230897810-f5ec3d21-f1e1-47bc-9a92-04d024c9d8fc.png" width = "30%" height="30%">
 
 # 프로그래머스 피로도 문제
 [프로그래머스 피로도 URL](https://school.programmers.co.kr/learn/courses/30/lessons/87946)
