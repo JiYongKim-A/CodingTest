@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 시간복잡도 O(n)... n = answers.length
     public int[] solution(int[] answers) {
         int[] arr = new int[3];
         ArrayList<Integer> list = new ArrayList<>();
