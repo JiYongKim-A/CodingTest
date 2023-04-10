@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 시간복잡도 O(n)... n = sizes.length
     public int solution(int[][] sizes) {
          int width = 0;
         int height = 0;
