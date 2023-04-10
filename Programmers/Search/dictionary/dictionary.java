@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 시간복잡도 O(n)... n = word.length()
     public int solution(String word) {
        HashMap<String, Integer> alphabet = new HashMap<>();
         HashMap<Integer, Integer> index = new HashMap<>();
