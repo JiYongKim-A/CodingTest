@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 class Solution {
+    // 시간복잡도 O(n! * n^2)
      public int solution(String numbers) {
         String[] split = numbers.split("");
         Set<Integer> set = getPermutation(split).stream()
