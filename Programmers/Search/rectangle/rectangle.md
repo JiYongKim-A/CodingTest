@@ -1,8 +1,9 @@
 <div align="center">
-<img src="" width = "30%" height="30%">
+<img src="https://user-images.githubusercontent.com/81874493/230899205-1d08005d-0d8a-4036-9f03-8e67608c7896.jpg" width = "30%" height="30%">
 
 # 프로그래머스 최소 직사각형 문제
 [프로그래머스 최소 직사각형 URL](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+
 
 
 
